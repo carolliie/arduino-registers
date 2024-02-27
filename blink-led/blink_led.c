@@ -1,24 +1,22 @@
 // Inclui a biblioteca AVR para acessar os registradores
-#include <avr/io.h>
+#include <avr/io.h> // libs para acesso aos registradores
 #include <util/delay.h>
 
 int main() {
-    // Configura o pino 13 como saída (onde está conectado o LED no Arduino Uno)
-    DDRB |= (1 << PB5);
+
+    DDRB |= (1 << PB5);                     // o LED padrão do Arduino Uno está conectado ao pino 13, e este código configura esse pino como saída.
 
     while(1) {
-        // Liga o LED
-        PORTB |= (1 << PB5);
         
-        // Aguarda um curto período de tempo
-        _delay_ms(500);
+        PORTB |= (1 << PB5);                // liga o LED
         
-        // Desliga o LED
-        PORTB &= ~(1 << PB5);
+        _delay_ms(500);                     // aguarda um curto período de tempo
         
-        // Aguarda um curto período de tempo
-        _delay_ms(500);
-    }
+        PORTB &= ~(1 << PB5);               // desliga o LED
+        
+        _delay_ms(500);                     // aguarda um curto período de tempo
+   
+   }
 
     return 0;
 }
