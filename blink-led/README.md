@@ -22,8 +22,37 @@ O resultado final é um programa que pisca o LED conectado ao pino 13 em um inte
 
 Esse é um exemplo simples de manipulação direta de registradores para controle de E/S em um microcontrolador AVR usando o ambiente de desenvolvimento do Arduino. 
 
+## Circuito
+
+<img src="circuit.png"/>
+
+A imagem acima ilustra o circuito feito para ligar o LED à placa.
+
+O LED foi conectado ao pino 13 e ao pino GND (ground), como declarado no código.
+
+#### Elementos utilizados:
+- 2 cabos jumper
+- Protoboard
+- LED
+- Resistor
+- Placa Arduino UNO
+
 ## Conclusão
 
 Para maioria dos projetos com Arduino e entre outros microcontroladores, não é necessário manipular diretamente os registradores, visto que as funções de alto nível fornecidas pelas bibliotecas padrão do Arduino são suficientes e mais simples para desenvolvimento de projetos elaborados.
 
 No entanto, o conhecimento acerca dos registradores e outros componentes de um computador/microcontrolador, pode ser útil para projetos que necessitam de otimização de desempenho ou para controle mais preciso do hardware.
+
+### Referências
+
+Este código foi feito com base em análise de vídeos relacionados a Arquitetura de Computadores, especificadamente, os registradores.
+
+Além dos vídeos, o conteúdo do projeto também foi esclarecido durante as aulas da disciplina de Organização e Arquitetura de Computadores.
+
+
+#### Videos
+<a href="https://youtu.be/iXJGeQNUdpI?si=gtdrWItd7indpYSd">Blink LED Through Register Level Programming in Arduino #1</a>
+
+<a href="https://youtu.be/9Q37tdEj1go?si=1lrTkTiQQZRpow_P">SISTEMAS DIGITAIS: REGISTRADORES E MEMÓRIA</a>
+
+<a href="https://youtu.be/Zc_4NgoJthU?si=9-cMG0fH0TCDFkou">O que são os Registradores no Arduino</a>

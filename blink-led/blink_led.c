@@ -1,4 +1,3 @@
-// Inclui a biblioteca AVR para acessar os registradores
 #include <avr/io.h> // libs para acesso aos registradores
 #include <util/delay.h>
 
