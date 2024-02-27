@@ -2,9 +2,9 @@
 
 ## Descrição
 
-Neste pequeno projeto, os conhecimentos básicos sobre arquietura de computadores foram necessários para o desenvolvimento do código - em C - e para a análise do microcontrolador utilizado - Arduino.
+Neste pequeno projeto, os conhecimentos básicos sobre arquitetura de computadores foram necessários para o desenvolvimento do código, em C, e para a análise do microcontrolador utilizado, o Arduino Nano.
 
-As principais características e partes do computador a serem estudadas neste projeto, são os registradores.
+As principais características e partes do computador a serem estudadas neste projeto, serão os registradores.
 
 ### O que são os registradores?
 
@@ -16,7 +16,7 @@ Ao interagir com o hardware em nível mais baixo em linguagens de programação 
 
 ## Código
 
-Este código é um programa básico em linguagem C para o microcontrolador AVR, que pode ser usado em placas Arduino baseadas em ATmega328 (como o Arduino Uno). 
+Este código é um programa básico que utiliza a linguagem C, no microcontrolador AVR, que pode ser usado em placas Arduino baseadas em ATmega328 (como o Arduino Uno). 
 
 O resultado final é um programa que pisca o LED conectado ao pino 13 em um intervalo de 1 segundo (ligado por 0,5 segundos, desligado por 0,5 segundos). 
 
@@ -28,6 +28,8 @@ Esse é um exemplo simples de manipulação direta de registradores para control
 
 A imagem acima ilustra o circuito feito para ligar o LED à placa.
 
+Na imagem, o microcontrolador ilustrado é o Arduino UNO, mas, no circuito montado manualmente, foi utilizado o Arduino Nano.
+
 O LED foi conectado ao pino 13 e ao pino GND (ground), como declarado no código.
 
 #### Elementos utilizados:
@@ -35,7 +37,7 @@ O LED foi conectado ao pino 13 e ao pino GND (ground), como declarado no código
 - Protoboard
 - LED
 - Resistor
-- Placa Arduino UNO
+- Placa Arduino Nano
 
 ## Conclusão
 
