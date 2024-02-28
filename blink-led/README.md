@@ -34,7 +34,7 @@ O LED foi conectado ao pino 13 e ao pino GND (ground), como declarado no código
 
 Como foi feita a conexão do LED no pino em que o LED bult-in também é conectado, os dois elementos foram ligados.
 
-Para ver o projeto em prática, entre <a href="https://drive.google.com/file/d/1V-IASUE1c46o3WVNy_y7vWq6pRLoOuq3/view?usp=drive_link">aqui</a>.
+Para ver o projeto em prática, entre <a href="https://drive.google.com/file/d/1tkWVF4WT-O8KCogvRmqjVSquw-wzlUKv/view?usp=sharing">aqui</a>.
 
 #### Elementos utilizados:
 - 2 cabos jumper
