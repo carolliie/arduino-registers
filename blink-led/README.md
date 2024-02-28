@@ -67,9 +67,9 @@ No entanto, o conhecimento acerca dos registradores e outros componentes de um c
 
 ### Referências
 
-Este código foi feito com base em análise de vídeos relacionados a Arquitetura de Computadores, especificadamente, os registradores.
+Este código foi feito com base em análise de vídeos relacionados a Arquitetura de Computadores, em específico, os registradores.
 
-Além dos vídeos, o conteúdo do projeto também foi esclarecido durante as aulas da disciplina de Organização e Arquitetura de Computadores.
+Além dos vídeos, o conteúdo do projeto também foi apresentado durante as aulas da disciplina de Organização e Arquitetura de Computadores.
 
 
 #### Videos
