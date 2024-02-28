@@ -16,7 +16,23 @@ Ao interagir com o hardware em nível mais baixo em linguagens de programação 
 
 ## Código
 
-Este código é um programa básico que utiliza a linguagem C, no microcontrolador AVR, que pode ser usado em placas Arduino baseadas em ATmega168 (como o Arduino Nano). 
+Este projeto possui um programa básico que utiliza a linguagem C, no microcontrolador AVR, que pode ser usado em placas Arduino baseadas em ATmega168 (como o Arduino Nano).
+
+Nesse código, DDRB e PORTB são registradores específicos utilizados em microcontroladores da família AVR, que inclui o Atmel ATMega168P utilizado no Arduino Nano.
+
+#### DDRB (Data Direction Register B):
+
+É um registrador responsável por configurar os pinos do Port B como entrada (0) ou saída (1).
+
+No trecho DDRB |= (1 << PB5);, o bit correspondente ao pino PB5 (bit 5 do Port B) é configurado como 1, indicando que o pino está configurado como saída.
+
+#### PORTB (Port B Output Register):
+
+É um registrador que controla o estado de saída dos pinos do Port B.
+
+No trecho PORTB |= (1 << PB5);, o bit correspondente ao pino PB5 é configurado como 1, colocando o pino em estado lógico alto (nível de tensão 5V no Arduino Nano), o que, no caso de um LED conectado a esse pino, faz o LED acender.
+
+No trecho PORTB &= ~(1 << PB5);, o bit correspondente ao pino PB5 é configurado como 0, colocando o pino em estado lógico baixo (nível de tensão 0V no Arduino Uno), o que faz o LED apagar.
 
 O resultado final é um programa que pisca o LED conectado ao pino 13 em um intervalo de 1 segundo (ligado por 0,5 segundos, desligado por 0,5 segundos). 
 
