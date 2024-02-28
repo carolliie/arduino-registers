@@ -32,7 +32,7 @@ No trecho DDRB |= (1 << PB5);, o bit correspondente ao pino PB5 (bit 5 do Port B
 
 No trecho PORTB |= (1 << PB5);, o bit correspondente ao pino PB5 é configurado como 1, colocando o pino em estado lógico alto (nível de tensão 5V no Arduino Nano), o que, no caso de um LED conectado a esse pino, faz o LED acender.
 
-No trecho PORTB &= ~(1 << PB5);, o bit correspondente ao pino PB5 é configurado como 0, colocando o pino em estado lógico baixo (nível de tensão 0V no Arduino Uno), o que faz o LED apagar.
+No trecho PORTB &= ~(1 << PB5);, o bit correspondente ao pino PB5 é configurado como 0, colocando o pino em estado lógico baixo (nível de tensão 0V no Arduino), o que faz o LED apagar.
 
 O resultado final é um programa que pisca o LED conectado ao pino 13 em um intervalo de 1 segundo (ligado por 0,5 segundos, desligado por 0,5 segundos). 
 
