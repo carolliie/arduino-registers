@@ -72,9 +72,10 @@ Este código foi feito com base em análise de vídeos relacionados a Arquitetur
 Além dos vídeos, o conteúdo do projeto também foi apresentado durante as aulas da disciplina de Organização e Arquitetura de Computadores.
 
 
-#### Videos
-<a href="https://youtu.be/iXJGeQNUdpI?si=gtdrWItd7indpYSd">Blink LED Through Register Level Programming in Arduino #1</a>
 
-<a href="https://youtu.be/9Q37tdEj1go?si=1lrTkTiQQZRpow_P">SISTEMAS DIGITAIS: REGISTRADORES E MEMÓRIA</a>
+#### Videos assistidos para contribuição ao projeto
+<a href="https://youtu.be/iXJGeQNUdpI?si=gtdrWItd7indpYSd">Blink LED Through Register Level Programming in Arduino #1 por FYOPRJ</a>
 
-<a href="https://youtu.be/Zc_4NgoJthU?si=9-cMG0fH0TCDFkou">O que são os Registradores no Arduino</a>
+<a href="https://youtu.be/9Q37tdEj1go?si=1lrTkTiQQZRpow_P">SISTEMAS DIGITAIS: REGISTRADORES E MEMÓRIA por Prof Romerson Oliveira</a>
+
+<a href="https://youtu.be/Zc_4NgoJthU?si=9-cMG0fH0TCDFkou">O que são os Registradores no Arduino por Silícios Lab</a>
