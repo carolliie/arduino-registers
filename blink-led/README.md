@@ -74,8 +74,8 @@ Além dos vídeos, o conteúdo do projeto também foi apresentado durante as aul
 
 
 #### Videos assistidos para contribuição ao projeto
-<a href="https://youtu.be/iXJGeQNUdpI?si=gtdrWItd7indpYSd">Blink LED Through Register Level Programming in Arduino #1 por FYOPRJ</a>
+<a href="https://youtu.be/iXJGeQNUdpI?si=gtdrWItd7indpYSd">_Blink LED Through Register Level Programming in Arduino #1_ </a>by FYOPRJ
 
-<a href="https://youtu.be/9Q37tdEj1go?si=1lrTkTiQQZRpow_P">SISTEMAS DIGITAIS: REGISTRADORES E MEMÓRIA por Prof Romerson Oliveira</a>
+<a href="https://youtu.be/9Q37tdEj1go?si=1lrTkTiQQZRpow_P">_SISTEMAS DIGITAIS: REGISTRADORES E MEMÓRIA_ </a>by Prof Romerson Oliveira
 
-<a href="https://youtu.be/Zc_4NgoJthU?si=9-cMG0fH0TCDFkou">O que são os Registradores no Arduino por Silícios Lab</a>
+<a href="https://youtu.be/Zc_4NgoJthU?si=9-cMG0fH0TCDFkou">_O que são os Registradores no Arduino_ </a>by Silícios Lab
